@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.calculator {
+  width: 320px;
+  border: 1px solid #dcdcdc;
+  padding: 12px;
+  background: #ffffff;
+}
+
+.display {
+  border: 1px solid #dcdcdc;
+  padding: 8px 10px;
+  min-height: 56px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.display .history {
+  font-size: 12px;
+  color: #666;
+  text-align: right;
+  min-height: 16px;
+}
+
+.display .current {
+  font-size: 26px;
+  text-align: right;
+  color: #111;
+  margin-top: 2px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.btn {
+  border: 1px solid #d1d7db;
+  padding: 12px 0;
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn:active {
+  transform: translateY(2px);
+}
+
+.btn.op {
+  background: #e6edf0;
+}
+
+.btn.equals {
+  grid-row: span 2;
+  background: #e7eced;
+  font-weight: 600;
+}
+
+.btn.wide {
+  grid-column: span 2;
+}
+
+.btn:hover {
+  filter: brightness(0.99);
+}
+
+/* Keep it neutral, no bright colors or gradients */
