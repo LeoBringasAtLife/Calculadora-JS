@@ -1,0 +1,21 @@
+---
+
+Pantalla para ver resultados
+Números (0-9)
+Operadores (+, −, /, *)
+Botón CE (borrar todo)
+Botón de flecha (borrar un carácter)
+Punto decimal (.)
+
+---
+
+
+Pruebas recomendadas:
+
+12 + 3 = → 15
+5 * 6 = → 30
+7 / 2 = → 3.5
+0.1 + 0.2 = → 0.30000000000000004 (esto es comportamiento estándar de punto flotante)
+
+Ingresar .. o 1..2 (no permitirá dos puntos en un mismo número)
+Borrar con la flecha y CE en cualquier momento
